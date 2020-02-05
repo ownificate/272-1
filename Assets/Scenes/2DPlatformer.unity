@@ -278,7 +278,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &264753572
 GameObject:
@@ -358,7 +358,7 @@ Transform:
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -693,6 +693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1930042547}
   - component: {fileID: 1930042546}
+  - component: {fileID: 1930042548}
   m_Layer: 0
   m_Name: Skellie_solo
   m_TagString: Untagged
@@ -761,8 +762,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1930042548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930042545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c376c5a23d098ab4fb3c5cba1c9144a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  age: 25
 --- !u!1 &2122372252
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,7 +855,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2128267544
 GameObject:
@@ -933,6 +947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2142521756}
   - component: {fileID: 2142521755}
+  - component: {fileID: 2142521757}
   m_Layer: 0
   m_Name: tiles_0 (1)
   m_TagString: Untagged
@@ -1001,5 +1016,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2142521757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142521754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf16d220bbf0d2479d2d3a1f203e716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basic: {fileID: 1930042548}
