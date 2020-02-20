@@ -46,7 +46,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\basicMovement.cs" />
+     <Compile Include="Assets\Scripts\jumper.cs" />
      <Compile Include="Assets\Scripts\Reposition.cs" />
+     <Compile Include="Assets\Scripts\sidescroll.cs" />
+     <None Include="Assets\2D Space Kit\Backgrounds\Background Tip.txt" />
+     <None Include="Assets\2D Space Kit\Ships and Stations\Rendering Tip.txt" />
+     <None Include="Assets\2D Space Kit\Background Elements\Stars\Recolor Us!.txt" />
+     <None Include="Assets\2D Space Kit\Backgrounds\Fantasy Purple 2048\Note.txt" />
+     <None Include="Assets\2D Space Kit\Background Elements\Planets\Planet Masks\Note.txt" />
+     <None Include="Assets\2D Space Kit\Readme.txt" />
+     <None Include="Assets\2D Space Kit\Particles (Sprites)\Note on Flares.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Orion Michael/Documents/GitHub/272-1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

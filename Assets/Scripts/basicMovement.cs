@@ -8,9 +8,13 @@ public class basicMovement : MonoBehaviour
     [SerializeField]
     KeyCode shoot, jump;
     float horizValue, vertiValue;
+    Rigidbody2D rb2d;
+    public float speed;
+
     void Start()
     {
-        
+        rb2d = GetComponent<Rigidbody2D>();
+        rb2d.gravityScale = 0f;
     }
 
     // Update is called once per frame
@@ -18,7 +22,11 @@ public class basicMovement : MonoBehaviour
     {
         checkForPress();
         peekAxis();
-        move();
+    }
+
+    void FixedUpdate()
+    {
+        setVelocity();
     }
 
     void checkForPress()
@@ -33,11 +41,16 @@ public class basicMovement : MonoBehaviour
     {
         horizValue = Input.GetAxis("Horizontal");
         vertiValue = Input.GetAxis("Vertical");
-        Debug.Log(horizValue + " " + vertiValue);
+        //Debug.Log(horizValue + " " + vertiValue);
     }
 
     void move()
     {
         transform.position += new Vector3(horizValue,vertiValue,0);
+    }
+
+    void setVelocity()
+    {
+        rb2d.velocity = new Vector2(horizValue, vertiValue);
     }
 }
