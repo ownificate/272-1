@@ -45,6 +45,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\asteroidMovement.cs" />
      <Compile Include="Assets\Scripts\basicMovement.cs" />
      <Compile Include="Assets\Scripts\jumper.cs" />
      <Compile Include="Assets\Scripts\Reposition.cs" />
