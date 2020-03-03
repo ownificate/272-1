@@ -15,7 +15,7 @@ public class asteroidMovement : MonoBehaviour
     {
         float x = transform.position.x;
         x += speed;
-        //Upon this line running, the character will fly to the left.
+        //Upon this line running, the character will fly to the right.
         transform.position = new Vector3(x,y,0);
     }
 }

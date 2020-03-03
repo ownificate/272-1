@@ -4,55 +4,54 @@ using UnityEngine;
 
 public class shipMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField]
-    KeyCode shoot, jump;
-    float horizValue, vertiValue;
-    Rigidbody2D rb2d;
+    //private float horizValue, vertiValue;
+    private Rigidbody2D rb2d;
     public float speed;
+
+    [SerializeField] private float moveForce;
+    [SerializeField] private float h, v;
+    [SerializeField] private bool isHoldingKey = false;
 
     void Start()
     {
+
         rb2d = GetComponent<Rigidbody2D>();
         rb2d.gravityScale = 0f;
     }
 
-    // Update is called once per frame
+    private void FixedUpdate()
+    {
+        //applies force to object to move it based on axis input
+        rb2d.AddForce(new Vector2(h, v));
+    }
+
     void Update()
     {
-        horizValue = Input.GetAxisRaw("Horizontal");
-        vertiValue = Input.GetAxisRaw("Vertical");
-        Vector2 targetVelocity = new Vector2(horizValue, vertiValue);
-        GetComponent<Rigidbody2D>().velocity = targetVelocity * speed;
+        getInput();
+        //Vector2 targetVelocity = new Vector2(h, v);
+        //GetComponent<Rigidbody2D>().velocity = targetVelocity * speed;
     }
 
-    void FixedUpdate()
+    private void getInput()
     {
-        //setVelocity();
+        h = Input.GetAxis("Horizontal") * moveForce;
+        v = Input.GetAxis("Vertical") * moveForce;
     }
 
-    void checkForPress()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(Input.GetKeyDown(shoot))
-            Debug.Log("You did it!");
-        if(Input.GetKeyDown(jump))
-            Debug.Log("You be a skilled jumper there matey.");
-    }
-
-    void peekAxis()
-    {
-        horizValue = Input.GetAxis("Horizontal");
-        vertiValue = Input.GetAxis("Vertical");
-        //Debug.Log(horizValue + " " + vertiValue);
-    }
-
-    void move()
-    {
-        transform.position += new Vector3(horizValue,vertiValue,0);
-    }
-
-    void setVelocity()
-    {
-        rb2d.velocity = new Vector2(horizValue, vertiValue);
+ 
+        if(other.gameObject.CompareTag("Collectable"))
+        {
+            isHoldingKey = true;
+            Destroy(other.gameObject);
+        }
+        
+        if(other.gameObject.CompareTag("Gate") && isHoldingKey)
+        {
+            isHoldingKey = false;
+            Destroy(other.gameObject);
+        }
     }
 }

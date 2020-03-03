@@ -8,6 +8,8 @@ TagManager:
   - character
   - enemy
   - Asteroid
+  - Collectable
+  - Gate
   layers:
   - Default
   - TransparentFX
