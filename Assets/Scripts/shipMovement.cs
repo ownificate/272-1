@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class basicMovement : MonoBehaviour
+public class shipMovement : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
@@ -20,13 +20,15 @@ public class basicMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        checkForPress();
-        peekAxis();
+        horizValue = Input.GetAxisRaw("Horizontal");
+        vertiValue = Input.GetAxisRaw("Vertical");
+        Vector2 targetVelocity = new Vector2(horizValue, vertiValue);
+        GetComponent<Rigidbody2D>().velocity = targetVelocity * speed;
     }
 
     void FixedUpdate()
     {
-        setVelocity();
+        //setVelocity();
     }
 
     void checkForPress()

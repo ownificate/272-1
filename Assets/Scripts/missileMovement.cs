@@ -5,21 +5,30 @@ using UnityEngine;
 public class missileMovement : MonoBehaviour
 {
     float x,y;
-    GameObject shipFiring;
-    float speed = 0.04f;
+    float speed = 0.4f;
+
+    public GameObject ship;
     void Start()
     {
-        x = shipFiring.transform.position.x - 1.5f;
-        y = shipFiring.transform.position.y;
-        shipFiring = GameObject.Find("shoooter");
+        ship = GameObject.Find("Carrier 1");
+        x = ship.transform.position.x;
+        y = ship.transform.position.y;
+        Physics2D.gravity = Vector2.zero;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        x -= speed;
-        y = transform.position.y;
+       x -= speed;
+       transform.position = new Vector3(x,y,0); 
+    }
 
-        transform.position = new Vector3(x,y,0);
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Asteroid")
+        {
+            print("test");
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+        }
     }
 }

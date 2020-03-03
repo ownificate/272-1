@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class asteroidMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
+    float speed = 0.08f;
+    public float y;
     void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        float x = transform.position.x;
+        x += speed;
+        //Upon this line running, the character will fly to the left.
+        transform.position = new Vector3(x,y,0);
     }
 }
