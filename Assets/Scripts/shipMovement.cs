@@ -38,20 +38,4 @@ public class shipMovement : MonoBehaviour
         h = Input.GetAxis("Horizontal") * moveForce;
         v = Input.GetAxis("Vertical") * moveForce;
     }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
- 
-        if(other.gameObject.CompareTag("Collectable"))
-        {
-            isHoldingKey = true;
-            Destroy(other.gameObject);
-        }
-        
-        if(other.gameObject.CompareTag("Gate") && isHoldingKey)
-        {
-            isHoldingKey = false;
-            Destroy(other.gameObject);
-        }
-    }
 }

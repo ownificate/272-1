@@ -13,7 +13,7 @@ public class skellieMovement : MonoBehaviour
     public float jumpSpeed = 8f;
     float x;
     public float speed; 
-    public bool isFacingRight;
+    public bool isFacingRight, isHoldingKey;
  
 
     void Start()
@@ -74,14 +74,24 @@ public class skellieMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            print("test");
             GameObject tmpMissile;
             if(!isFacingRight)
                 tmpMissile = Instantiate(missile,shooter.transform.position,Quaternion.Euler(0,0,180)) as GameObject;
             else
                 tmpMissile = Instantiate(missile,shooter.transform.position,Quaternion.identity) as GameObject;
-
-            //tmpMissile.transform.position = new Vector3(x,y,0);
+        }
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Collectable"))
+        {
+            isHoldingKey = true;
+            Destroy(other.gameObject);
+        }
+        if(other.gameObject.CompareTag("Gate") && isHoldingKey)
+        {
+            isHoldingKey = false;
+            Destroy(other.gameObject);
         }
     }
 }
