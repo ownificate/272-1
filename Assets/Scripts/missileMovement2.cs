@@ -18,11 +18,12 @@ public class missileMovement2 : MonoBehaviour
         ship = GameObject.Find("Skellie_solo");
         x = ship.transform.position.x;
         y = ship.transform.position.y;
+        isFacingRight = ship.GetComponent<skellieMovement>().isFacingRight;
     }
 
     void Update()
     {
-        if(ship.GetComponent<skellieMovement>().isFacingRight)
+        if(isFacingRight)
             x += speed;
         else
             x -= speed;
