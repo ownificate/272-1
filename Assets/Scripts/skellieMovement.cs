@@ -51,6 +51,7 @@ public class skellieMovement : MonoBehaviour
             rb2d.velocity = new Vector2(-speed, rb2d.velocity.y);
             isFacingRight = false;
             spriteRenderer.flipX = true;
+            //transform.Rotate(0,180,0); <-- Better because it rotates children
         }
         else 
         {
@@ -75,10 +76,16 @@ public class skellieMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             GameObject tmpMissile;
-            if(!isFacingRight)
-                tmpMissile = Instantiate(missile,shooter.transform.position,Quaternion.Euler(0,0,180)) as GameObject;
+            if (!isFacingRight)
+            {
+                tmpMissile = Instantiate(missile, shooter.transform.position, Quaternion.Euler(0, 0, 180)) as GameObject;
+                Destroy(tmpMissile, 2.0f);
+            }
             else
-                tmpMissile = Instantiate(missile,shooter.transform.position,Quaternion.identity) as GameObject;
+            {
+                tmpMissile = Instantiate(missile, shooter.transform.position, Quaternion.identity) as GameObject;
+                Destroy(tmpMissile, 2.0f);
+            }
         }
     }
     void OnTriggerEnter2D(Collider2D other)

@@ -31,7 +31,6 @@ public class missileMovement : MonoBehaviour
     {
         if(other.gameObject.tag == "Asteroid")
         {
-            print("test");
             Destroy(other.gameObject);
             Destroy(this.gameObject);
         }
