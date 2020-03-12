@@ -65,6 +65,24 @@ TextureImporter:
   - first:
       213: -4515245654243918033
     second: skellie_20
+  - first:
+      213: 4014720794583270357
+    second: skellie_21
+  - first:
+      213: -4536772819112359193
+    second: skellie_22
+  - first:
+      213: -4018460815576986496
+    second: skellie_23
+  - first:
+      213: 636429822491010059
+    second: skellie_24
+  - first:
+      213: -49219001371552040
+    second: skellie_25
+  - first:
+      213: -5365564897867992288
+    second: skellie_26
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -224,10 +242,10 @@ TextureImporter:
       name: skellie_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 21
         y: 120
-        width: 60
-        height: 60
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,7 +253,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ce2b5b8711c9954fa5466df22c20b6f
+      spriteID: 6a3d2cefe1037a94fbf5a789a086e9bf
       internalID: -8603576082335173130
       vertices: []
       indices: 
@@ -245,10 +263,10 @@ TextureImporter:
       name: skellie_1
       rect:
         serializedVersion: 2
-        x: 60
+        x: 81
         y: 120
-        width: 60
-        height: 60
+        width: 21
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,7 +274,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24f3e25660026f54c8e95fa833dfa75e
+      spriteID: 85844b3a23bfc5841a2c9aa8ced57ce4
       internalID: 5847920801076227135
       vertices: []
       indices: 
@@ -266,10 +284,10 @@ TextureImporter:
       name: skellie_2
       rect:
         serializedVersion: 2
-        x: 120
+        x: 141
         y: 120
-        width: 60
-        height: 60
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,7 +295,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bfc50ee11db11040bdd47e19a58cfaa
+      spriteID: 80a4d161405f2cf428bb3dec8b45f6c9
       internalID: 530408689087157392
       vertices: []
       indices: 
@@ -287,10 +305,10 @@ TextureImporter:
       name: skellie_3
       rect:
         serializedVersion: 2
-        x: 180
+        x: 201
         y: 120
-        width: 60
-        height: 60
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,7 +316,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd05ee91ec057ab47bb3944f767a9425
+      spriteID: 85c3a49fb45ad1843ae9932e494a7b32
       internalID: 3328912934226128525
       vertices: []
       indices: 
@@ -308,10 +326,10 @@ TextureImporter:
       name: skellie_4
       rect:
         serializedVersion: 2
-        x: 240
+        x: 261
         y: 120
-        width: 60
-        height: 60
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,7 +337,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c7d048508796634cadcca5a992d02f7
+      spriteID: 476deebd0afb65044918ab0abd9d241c
       internalID: 6458447247332348973
       vertices: []
       indices: 
@@ -329,10 +347,10 @@ TextureImporter:
       name: skellie_5
       rect:
         serializedVersion: 2
-        x: 300
+        x: 321
         y: 120
-        width: 60
-        height: 60
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,7 +358,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c8a890072bf4f4692ae6b121b649d1
+      spriteID: 543a86d658ec53c43bcc42f895daf43f
       internalID: -8273058889631062198
       vertices: []
       indices: 
@@ -350,10 +368,10 @@ TextureImporter:
       name: skellie_6
       rect:
         serializedVersion: 2
-        x: 360
+        x: 381
         y: 120
-        width: 60
-        height: 60
+        width: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,7 +379,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36015a5364eaf4246bad0cb4a40a56e3
+      spriteID: 4ffa337e4d9c9b849b1fdcd064e28615
       internalID: 3995792414189357385
       vertices: []
       indices: 
@@ -371,10 +389,10 @@ TextureImporter:
       name: skellie_7
       rect:
         serializedVersion: 2
-        x: 0
+        x: 21
         y: 60
-        width: 60
-        height: 60
+        width: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,7 +400,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d0eaaa54732e4f4eb2d3e1f7b4b6b07
+      spriteID: a0cbd9fb10686db479d7ab4c02bd48b1
       internalID: 1846229725702851586
       vertices: []
       indices: 
@@ -392,10 +410,10 @@ TextureImporter:
       name: skellie_8
       rect:
         serializedVersion: 2
-        x: 60
+        x: 81
         y: 60
-        width: 60
-        height: 60
+        width: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,7 +421,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22c5a2dcf3adf3a48b515b2dc8ac9d15
+      spriteID: 4b9cd6a27a235864e8a09d9f98bb540b
       internalID: 5384297034730989685
       vertices: []
       indices: 
@@ -413,10 +431,10 @@ TextureImporter:
       name: skellie_9
       rect:
         serializedVersion: 2
-        x: 120
+        x: 141
         y: 60
-        width: 60
-        height: 60
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,7 +442,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 886e94147f77cf24a911ef5a6c188eb0
+      spriteID: eff3c5925ec34734ca19bcf0cb26bb27
       internalID: 8373952382942580437
       vertices: []
       indices: 
@@ -434,10 +452,10 @@ TextureImporter:
       name: skellie_10
       rect:
         serializedVersion: 2
-        x: 180
+        x: 201
         y: 60
-        width: 60
-        height: 60
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,7 +463,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f350b14be34927442bf511bf0ff0feed
+      spriteID: fe7788379ed302145855b716f5956fb1
       internalID: -6625947727694798127
       vertices: []
       indices: 
@@ -455,10 +473,10 @@ TextureImporter:
       name: skellie_11
       rect:
         serializedVersion: 2
-        x: 240
+        x: 261
         y: 60
-        width: 60
-        height: 60
+        width: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,7 +484,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8e6abbcba7ece1489e1c4088bc60fbe
+      spriteID: 262a7e5a3c8b25243992612c858c2ae7
       internalID: -544468928720442528
       vertices: []
       indices: 
@@ -476,10 +494,10 @@ TextureImporter:
       name: skellie_12
       rect:
         serializedVersion: 2
-        x: 300
-        y: 60
-        width: 60
-        height: 60
+        x: 278
+        y: 70
+        width: 10
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,7 +505,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d16a62b17e07414f97d9c979378e1d8
+      spriteID: bfa1658634ebdea4ab9702089c8d28f5
       internalID: -2130391453206183761
       vertices: []
       indices: 
@@ -497,10 +515,10 @@ TextureImporter:
       name: skellie_13
       rect:
         serializedVersion: 2
-        x: 360
+        x: 321
         y: 60
-        width: 60
-        height: 60
+        width: 27
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,7 +526,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 090fd4a8a8ce01640bc830aaf9db3d32
+      spriteID: 52bdd9a26cedf7c448de8291e36539c9
       internalID: 3043050510316826354
       vertices: []
       indices: 
@@ -518,10 +536,10 @@ TextureImporter:
       name: skellie_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 60
-        height: 60
+        x: 381
+        y: 60
+        width: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,7 +547,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0e37669eb6812c47bbf4a3613e18599
+      spriteID: f6039351e4b7e2c4fb9db2492548b384
       internalID: -4129201814500328521
       vertices: []
       indices: 
@@ -539,10 +557,10 @@ TextureImporter:
       name: skellie_15
       rect:
         serializedVersion: 2
-        x: 60
-        y: 0
-        width: 60
-        height: 60
+        x: 398
+        y: 67
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,7 +568,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7db00c22d27d081459c4696fd1d58fb0
+      spriteID: 3d6543db2807a744b9ec6a9f3c5a746a
       internalID: 5985681719423425114
       vertices: []
       indices: 
@@ -560,10 +578,10 @@ TextureImporter:
       name: skellie_16
       rect:
         serializedVersion: 2
-        x: 120
+        x: 21
         y: 0
-        width: 60
-        height: 60
+        width: 20
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,7 +589,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235d957117dd399409a9031164bc3aa9
+      spriteID: 47794335c3592784c8e537b09b00b42f
       internalID: 4716215752569681628
       vertices: []
       indices: 
@@ -581,10 +599,10 @@ TextureImporter:
       name: skellie_17
       rect:
         serializedVersion: 2
-        x: 180
+        x: 81
         y: 0
-        width: 60
-        height: 60
+        width: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,7 +610,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efa2cce081a8ccb43b343668be77ce56
+      spriteID: a60154752f3c8d04897bf3cc2e5376de
       internalID: -3384296779654631376
       vertices: []
       indices: 
@@ -602,10 +620,10 @@ TextureImporter:
       name: skellie_18
       rect:
         serializedVersion: 2
-        x: 240
+        x: 141
         y: 0
-        width: 60
-        height: 60
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,7 +631,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3656401208a8594f88a230e0e4e863a
+      spriteID: 812ec00895ef1bf4982806d7f43cd189
       internalID: 7231747187400144867
       vertices: []
       indices: 
@@ -623,10 +641,10 @@ TextureImporter:
       name: skellie_19
       rect:
         serializedVersion: 2
-        x: 300
+        x: 199
         y: 0
-        width: 60
-        height: 60
+        width: 23
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,7 +652,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b1db29be28faaf47b395eae5f4709d1
+      spriteID: 8a8b0efeab97134458118dc9537cee4a
       internalID: 8106426962063033824
       vertices: []
       indices: 
@@ -644,10 +662,10 @@ TextureImporter:
       name: skellie_20
       rect:
         serializedVersion: 2
-        x: 360
+        x: 261
         y: 0
-        width: 60
-        height: 60
+        width: 19
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,8 +673,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f476fbef7461ce42ae4998dab9138c1
+      spriteID: 908d967a371a9ff4f97571de55df2e36
       internalID: -4515245654243918033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skellie_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 25
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2692785c9477ea49b8fcbcbe1df83d7
+      internalID: 4014720794583270357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skellie_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e208871c6f65a044e9225f4a807b832f
+      internalID: -4536772819112359193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skellie_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 10
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa8cd2ad9a63de4cbf60c0bec5310fb
+      internalID: -4018460815576986496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skellie_24
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be96db78e3eba74caa350e846df6b6b
+      internalID: 636429822491010059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skellie_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 15
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81ec73c11778824da526264aadbe979
+      internalID: -49219001371552040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skellie_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 7
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c2b301a784e0148bd9325ffbf89403
+      internalID: -5365564897867992288
       vertices: []
       indices: 
       edges: []

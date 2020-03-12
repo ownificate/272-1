@@ -12,15 +12,16 @@ public class skellieMovement : MonoBehaviour
     BoxCollider2D bc2d;
     public float jumpSpeed = 8f;
     float x;
-    public float speed; 
+    public float speed;
     public bool isFacingRight, isHoldingKey;
- 
+    Animator anim;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         bc2d = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
 
     }
 
@@ -34,8 +35,20 @@ public class skellieMovement : MonoBehaviour
         {
             rb2d.gravityScale = 2f;
         }
+        animate();
         move();
-        fire();    
+        fire();
+        updateAxes();
+    }
+
+    void updateAxes()
+    {
+        x = Input.GetAxis("Horizontal");
+    }
+
+    private void animate()
+    {
+        anim.SetFloat("xSpeed", Mathf.Abs(rb2d.velocity.x));
     }
 
     private bool isOnGround()
