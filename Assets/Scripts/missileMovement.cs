@@ -6,6 +6,7 @@ public class missileMovement : MonoBehaviour
 {
     Rigidbody2D rb2d;
     [SerializeField] private float moveSpeed;
+    [SerializeField] private GameObject boom;
     float x,y;
     float speed = 0.4f;
 
@@ -13,7 +14,6 @@ public class missileMovement : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        
         ship = GameObject.Find("Carrier 1");
         x = ship.transform.position.x;
         y = ship.transform.position.y;
@@ -31,6 +31,7 @@ public class missileMovement : MonoBehaviour
     {
         if(other.gameObject.tag == "Asteroid")
         {
+            Instantiate(boom,this.transform.position,Quaternion.identity);
             Destroy(other.gameObject);
             Destroy(this.gameObject);
         }

@@ -8,6 +8,7 @@ public class shipMovement : MonoBehaviour
     //private float horizValue, vertiValue;
     private Rigidbody2D rb2d;
     public float speed;
+    Animator animator;
 
     [SerializeField] private float moveForce;
     [SerializeField] private float h, v;
@@ -17,6 +18,7 @@ public class shipMovement : MonoBehaviour
     {
 
         rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         rb2d.gravityScale = 0f;
     }
 
@@ -29,8 +31,13 @@ public class shipMovement : MonoBehaviour
     void Update()
     {
         getInput();
+        animate();
         //Vector2 targetVelocity = new Vector2(h, v);
         //GetComponent<Rigidbody2D>().velocity = targetVelocity * speed;
+    }
+    private void animate()
+    {
+        animator.SetFloat("speed",rb2d.velocity.x);
     }
 
     private void getInput()
