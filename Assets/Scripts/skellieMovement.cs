@@ -49,6 +49,7 @@ public class skellieMovement : MonoBehaviour
     private void animate()
     {
         anim.SetFloat("xSpeed", Mathf.Abs(rb2d.velocity.x));
+        anim.SetFloat("ySpeed", Mathf.Abs(rb2d.velocity.y));
     }
 
     private bool isOnGround()
